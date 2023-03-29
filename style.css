@@ -1,0 +1,74 @@
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color:lavender;
+}
+
+td {
+    padding:8px 14px;
+    text-align:left;
+}
+
+tr:nth-child(even),table.list thead > tr {
+    background-color: rgb(24, 153, 127);
+}
+
+input[type="text"], input[type="number"] {
+    display:inline-block;
+    width:92%;
+    padding: 12px 20px;
+    margin:8px 0;
+    border:1px solid rgb(200, 199, 199);
+    border-radius:20px;
+}
+
+.form_action--button {
+    text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+    display:inline-block;
+    width:40%;
+    padding: 6px 12px;
+    margin:14px 0 10px;
+    background-color:rgb(255, 253, 249);
+    border:1px solid rgb(223, 210, 205);
+    border-radius:30px;
+    cursor:pointer;
+    outline:none;
+}
+
+table.list {
+    width:100%;
+    color:white;
+    text-align: center;
+}
+
+table.list tr:nth-child(odd) {
+    color:black;
+}
+
+table.list th {
+    height:36px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+table.list td {
+    border-radius:8px;
+    text-align: center;
+}
+
+button {
+    display:inline-block;
+    width:92%;
+    padding: 6px 12px;
+    margin:14px 0 10px;
+    background-color:rgb(255, 253, 249);
+    border:1px solid rgb(223, 210, 205);
+    border-radius:30px;
+    cursor:pointer;
+    outline:none;
+}
